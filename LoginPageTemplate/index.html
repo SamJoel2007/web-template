@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE - Sam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #f06, #48f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Center the content and add some styling */
+.content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
+p {
+    margin: 0;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.kb[type=password],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.slabel {
+    text-align: left;
+
+}
+.superbutton {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.superbutton:hover {
+    background-color: #48f;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+</style>
+<body>
+    <div class="content">
+        <h1>LOGIN</h1>
+        <br>
+        <form>
+                <div class="slabel">
+                    <label for="fname" class="slabel">Enter Username</label>
+                </div>
+    <input type="text" id="fname" name="firstname" placeholder="Username">
+            <br><br>
+            <div class="slabel">
+            <label for="fname" class="slabel">Enter Password</label>
+            </div>
+            <input type="password" id="fname1" name="firstname1" placeholder="Password" class="kb">
+            <div class="slabel">
+                <a href="#" style="color: white;">Forgot Password</a>
+            </div>
+            <br><br>
+                <div class="button-container">
+
+        <button class="superbutton">Submit</button>
+    </div>
+        </form>
+    </div>
+</body>
+</html>
